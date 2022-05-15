@@ -1,19 +1,44 @@
-import logo from './logo.svg';
 import './App.css';
-import ReactDOM from 'react-dom/client';
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-} from "react-router-dom";
-import Home from './pages/Home';
+import { Box, Typography, Paper } from "@mui/material";
+
 
 function App() {
-  <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<Home />} />
-    </Routes>
-  </BrowserRouter>
+  return (
+    <Box
+      sx={{
+        display: "flex",
+        justifyContent: "center",
+        marginTop: "2%"
+      }}
+    >
+      <Paper elevation={8} sx={{ width: "50%", height: "50%", backgroundColor: "gray" }} variant="outlined">
+        <Box
+          sx={{
+            display: "flex",
+            justifyContent: "center"
+          }}
+        >
+          <Typography sx={{ fontWeight: "bold", fontSize: 40 }}>
+            Matt Romanes
+          </Typography>
+
+          <Box
+            sx={{
+              display: "flex",
+              justifyContent: "center"
+            }}
+          >
+            {/* <Typography sx={{ fontWeight: "bold", fontSize: 40 }}>
+              Matt Romanes
+            </Typography> */}
+
+          </Box>
+
+
+        </Box>
+      </Paper>
+    </Box>
+  );
 }
 
 export default App;
