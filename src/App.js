@@ -1,42 +1,32 @@
 import './App.css';
-import { Box, Typography, Paper } from "@mui/material";
-
+import { Box, Typography, Paper, Container } from "@mui/material";
 
 function App() {
   return (
     <Box
+    component = "span"
       sx={{
         display: "flex",
         justifyContent: "center",
-        marginTop: "2%"
+        backgroundColor: "#000080",
       }}
     >
-      <Paper elevation={8} sx={{ width: "50%", height: "50%", backgroundColor: "gray" }} variant="outlined">
-        <Box
-          sx={{
-            display: "flex",
-            justifyContent: "center"
-          }}
-        >
-          <Typography sx={{ fontWeight: "bold", fontSize: 40 }}>
-            Matt Romanes
-          </Typography>
 
-          <Box
-            sx={{
-              display: "flex",
-              justifyContent: "center"
-            }}
-          >
-            {/* <Typography sx={{ fontWeight: "bold", fontSize: 40 }}>
-              Matt Romanes
-            </Typography> */}
+      <Box
+        sx={{
+          display: "flex",
+          justifyContent: "center",
+          marginTop: "10%"
+        }}
+      >
+        <Typography sx={{ fontWeight: "bold", fontSize: 40, color: "white" }}>
+          Matt Romanes
+        </Typography>
 
-          </Box>
+        <p>dfdfd</p>
 
+      </Box>
 
-        </Box>
-      </Paper>
     </Box>
   );
 }
