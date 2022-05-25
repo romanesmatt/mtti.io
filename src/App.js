@@ -23,8 +23,6 @@ function App() {
           Matt Romanes
         </Typography>
 
-        <p>dfdfd</p>
-
       </Box>
 
     </Box>
