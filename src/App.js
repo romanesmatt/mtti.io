@@ -4,7 +4,7 @@ import { Box, Typography, Paper, Container } from "@mui/material";
 function App() {
   return (
     <Box
-    component = "span"
+      component="span"
       sx={{
         display: "flex",
         justifyContent: "center",
@@ -16,16 +16,24 @@ function App() {
         sx={{
           display: "flex",
           justifyContent: "center",
-          marginTop: "10%"
+          marginTop: "10%",
+          flexDirection: "column",
+          alignItems: "center"
         }}
       >
         <Typography sx={{ fontWeight: "bold", fontSize: 40, color: "white" }}>
-          Matt Romanes
+          {/* Matt Romanes */}
         </Typography>
+        <Box>
+          <Typography sx={{ fontSize: 20, color: "white" }}>
+            Hello! I am Matt Romanes. More to come.
+          </Typography>
+        </Box>
 
       </Box>
 
     </Box>
+
   );
 }
 
