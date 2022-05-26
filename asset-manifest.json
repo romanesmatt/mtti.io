@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.3c8b630e.js",
+    "main.js": "/static/js/main.65ad0605.js",
     "static/js/787.ae66b986.chunk.js": "/static/js/787.ae66b986.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/queenstown.jpeg": "/static/media/queenstown.9e747d1284e6d9b84781.jpeg",
     "index.html": "/index.html",
     "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.3c8b630e.js.map": "/static/js/main.3c8b630e.js.map",
+    "main.65ad0605.js.map": "/static/js/main.65ad0605.js.map",
     "787.ae66b986.chunk.js.map": "/static/js/787.ae66b986.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.3c8b630e.js"
+    "static/js/main.65ad0605.js"
   ]
 }
