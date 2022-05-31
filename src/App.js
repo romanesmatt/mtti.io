@@ -73,7 +73,7 @@ export default function App() {
 
                         <p>
                             <Typography sx={{ fontSize: 20, color: "white" }}>
-                                I'm a passionate, team-oriented and hard-working individual who wants to to create better digital solutions.
+                                I'm a passionate, team-oriented and hard-working individual who wants to create better digital solutions.
                                 As a result, I'm seeking roles in Software Development and Cybersecurity that will help me achieve this goal.
                             </Typography>
                         </p>
