@@ -4,21 +4,31 @@ import { Box, Typography, Paper, Container, BottomNavigation, BottomNavigationAc
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
-import BackgroundImage from "./queenstown.jpeg";
+import BackgroundImage from "./queenstown.JPG";
 
 export default function App() {
     // State handling for the Bottom Navigation component
     const [value, setValue] = React.useState(0);
 
+    // Responsive design
+
     return (
         // Background image container
-        <div
-            style={{
+        <Box
+            sx={{
                 backgroundImage: `url(${BackgroundImage})`,
                 backgroundRepeat: 'no-repeat',
                 height: '100vh',
+                minHeight: "100%",
                 backgroundPosition: "center",
-                backgroundSize: "cover"
+                backgroundSize: "cover",
+                backgroundRepeat: "no-repeat",
+                backgroundAttachment: "scroll",
+                display: "flex",
+                justifyContent: "center",
+                flexDirection: "column",
+                alignItems: "center",
+                overflow: "hidden"
             }}
 
         >
@@ -30,6 +40,8 @@ export default function App() {
                     justifyContent: "center",
                     flexDirection: "column",
                     alignItems: "center",
+                    height: "80%",
+                    
                 }}
             >
 
@@ -41,19 +53,18 @@ export default function App() {
                         justifyContent: "center",
                         flexDirection: "column",
                         alignItems: "center",
-                        backgroundColor: "black",
-                        opacity: "90%",
-                        height: "100wh",
-                        width: "90vh",
+                        backgroundColor: "rgba(0, 0, 0, 0.8)",
+                        height: "auto",
+                        width: "50%",
                         borderRadius: "16px",
-                        marginTop: "8%",
-                        boxShadow: 1
+                        boxShadow: 1,
+                        overflow: "auto"
                     }}
                 >
                     <Typography sx={{ fontWeight: "bold", fontSize: 60, color: "white", marginTop: "2%" }}>
                         Hello! I'm Matt Romanes.
                     </Typography>
-                    <Box sx={{ width: "67%", marginBottom: "5%", marginTop: "2%" }}>
+                    <Box sx={{ width: "67%", marginBottom: "5%", marginTop: "2%", }}>
                         <p>
                             <Typography sx={{ fontSize: 20, color: "white" }}>
                                 I am a Computer Science student, Software Developer and technology enthusiast from Wellington, New Zealand.
@@ -85,28 +96,29 @@ export default function App() {
                     {/* Basically, the "footer" */}
 
                     <BottomNavigation
-                        showLabels
+                        showLabels display
                         value={value}
                         onChange={(event, newValue) => {
                             setValue(newValue);
                         }}
                         sx={{
-                            backgroundColor: "black",
-                            marginBottom: "5%"
+                            backgroundColor: "rgba(0, 0, 0, 0)",
+                            marginBottom: "5%",
+                            width: "100%"
                         }}
                     >
-                        <BottomNavigationAction icon={<a href="https://github.com/romanesmatt"> <GitHubIcon sx={{ color: "#00B5E2", fontSize: "40px" }} /></a>} />
-                        <BottomNavigationAction icon={<a href="https://www.linkedin.com/in/matt-romanes-860606153/"><LinkedInIcon sx={{ color: "#00B5E2", fontSize: "40px" }} /></a>} />
-                        <BottomNavigationAction icon={<a href="mailto:mattromanes@gmail.com"><EmailIcon sx={{ color: "#00B5E2", fontSize: "40px" }} /></a>} />
+                        <BottomNavigationAction icon={<a href="https://github.com/romanesmatt"> <GitHubIcon sx={{ color: "white", fontSize: "50px" }} /></a>} />
+                        <BottomNavigationAction icon={<a href="https://www.linkedin.com/in/matt-romanes-860606153/"><LinkedInIcon sx={{ color: "white", fontSize: "50px" }} /></a>} />
+                        <BottomNavigationAction icon={<a href="mailto:mattromanes@gmail.com"><EmailIcon sx={{ color: "white", fontSize: "50px" }} /></a>} />
                     </BottomNavigation>
 
-                    <Typography sx={{ fontSize: 10, color: "white", marginBottom: "2%" }}>
+                    <Typography sx={{ fontSize: 12, color: "white", marginBottom: "2%" }}>
                         © Matt Romanes
                     </Typography>
                 </Box>
 
             </Box>
 
-        </div>
+        </Box>
     );
 }
