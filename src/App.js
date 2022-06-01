@@ -10,8 +10,6 @@ export default function App() {
     // State handling for the Bottom Navigation component
     const [value, setValue] = React.useState(0);
 
-    // Responsive design
-
     return (
         // Background image container (also the main container)
         <Box
