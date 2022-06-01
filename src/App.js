@@ -46,34 +46,34 @@ export default function App() {
                     }}
                 >
                     <h1>
-                    <Typography sx={{ fontWeight: "bold", fontSize: 60, color: "white", }}>
+                    <Typography sx={{ fontWeight: "bold", fontSize: 60, color: "white", fontFamily: "Sora" }}>
                         Hello! I'm Matt Romanes.
                     </Typography>
                     </h1>
 
                     <Box sx={{ width: "67%", marginBottom: "2%"  }}>
                         <p>
-                            <Typography sx={{ fontSize: 18, color: "white" }}>
+                            <Typography sx={{ fontSize: 18, color: "white", fontFamily: "Sora" }}>
                                 I'm a Computer Science student, Software Developer and technology enthusiast from Wellington, New Zealand.
                             </Typography>
                         </p>
 
                         <p>
-                            <Typography sx={{ fontSize: 18, color: "white" }}>
+                            <Typography sx={{ fontSize: 18, color: "white", fontFamily: "Sora" }}>
                                 I describe myself as a passionate, team-oriented and hard-working individual who wants to create better digital solutions.
                                 As a result, I'm seeking roles in Software Development and Cybersecurity that will help me achieve this goal.
                             </Typography>
                         </p>
 
                         <p>
-                            <Typography sx={{ fontSize: 18, color: "white" }}>
+                            <Typography sx={{ fontSize: 18, color: "white", fontFamily: "Sora" }}>
                                 My most prominent languages are JavaScript, Java and Python. Additionally, I've worked with full-stack, DevOps,
                                 cybersecurity and networking technology, both in my academics and employment.
                             </Typography>
                         </p>
 
                         <p>
-                            <Typography sx={{ fontSize: 18, color: "white" }}>
+                            <Typography sx={{ fontSize: 18, color: "white", fontFamily: "Sora" }}>
                                 I'm currently in my final semester at Victoria University of
                                 Wellington and a part-time Software Developer at CodeCamp.
                             </Typography>
@@ -96,7 +96,7 @@ export default function App() {
                         <BottomNavigationAction icon={<a href="mailto:mattromanes@gmail.com"><EmailIcon sx={{ color: "white", fontSize: "40px" }} /></a>} />
                     </BottomNavigation>
 
-                    <Typography sx={{ fontSize: 11, color: "white", marginBottom: "2%" }}>
+                    <Typography sx={{ fontSize: 11, color: "white", marginBottom: "2%", fontFamily: "Sora" }}>
                         © Matt Romanes
                     </Typography>
                 </Box>
