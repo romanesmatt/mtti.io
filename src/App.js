@@ -60,7 +60,8 @@ export default function App() {
 
                         <p>
                             <Typography sx={{ fontSize: 18, color: "white", fontFamily: "Sora" }}>
-                                I describe myself as a passionate, team-oriented and hard-working individual who wants to create better digital solutions.
+                                I describe myself as a passionate, team-oriented and hard-working individual who is 
+                                dedicated to creating better digital solutions.
                             </Typography>
                         </p>
 
