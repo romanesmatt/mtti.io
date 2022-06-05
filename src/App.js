@@ -1,6 +1,6 @@
 import './App.css';
 import * as React from 'react';
-import { Box, Typography, Paper, Container, BottomNavigation, BottomNavigationAction } from "@mui/material";
+import { Box, Typography, BottomNavigation, BottomNavigationAction } from "@mui/material";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
@@ -8,7 +8,6 @@ import BackgroundImage from "./rotoiti.JPG";
 
 export default function App() {
       // State handling for the Bottom Navigation component
-      const [value, setValue] = React.useState(0);
 
       return (
           // Background image container (also the main container)
@@ -20,7 +19,6 @@ export default function App() {
                   minHeight: "90vh",
                   backgroundPosition: "bottom",
                   backgroundSize: "cover",
-                  backgroundRepeat: "no-repeat",
                   backgroundAttachment: "scroll",
                   display: "flex",
                   justifyContent: "center",
@@ -39,7 +37,7 @@ export default function App() {
                       alignItems: "center",
                       backgroundColor: "rgba(0, 0, 0, 0.8)",
                       height: "auto",
-                      width: "85vh",
+                      width: "100vh",
                       borderRadius: "10px",
                       boxShadow: 1,
                       overflowY: "auto",
@@ -60,7 +58,7 @@ export default function App() {
   
                       <p>
                           <Typography sx={{ fontSize: 18, color: "white", fontFamily: "Sora" }}>
-                              I describe myself as a passionate, team-oriented and hard-working individual who is
+                              I describe myself as a passionate, team-oriented, persistent and hard-working individual who is
                               dedicated to creating better digital solutions.
                           </Typography>
                       </p>
@@ -84,7 +82,6 @@ export default function App() {
   
                   <BottomNavigation
                       showLabels display
-                      value={value}
                       sx={{
                           backgroundColor: "rgba(0, 0, 0, 0)",
                           marginBottom: "5%",
