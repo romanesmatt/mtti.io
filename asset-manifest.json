@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.e14fd0a9.css",
-    "main.js": "/static/js/main.b46df88a.js",
+    "main.js": "/static/js/main.b60412bd.js",
     "static/js/787.ae66b986.chunk.js": "/static/js/787.ae66b986.chunk.js",
     "static/media/rotoiti.JPG": "/static/media/rotoiti.d5d59108da1418be1d75.JPG",
     "index.html": "/index.html",
     "main.e14fd0a9.css.map": "/static/css/main.e14fd0a9.css.map",
-    "main.b46df88a.js.map": "/static/js/main.b46df88a.js.map",
+    "main.b60412bd.js.map": "/static/js/main.b60412bd.js.map",
     "787.ae66b986.chunk.js.map": "/static/js/787.ae66b986.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e14fd0a9.css",
-    "static/js/main.b46df88a.js"
+    "static/js/main.b60412bd.js"
   ]
 }
