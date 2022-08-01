@@ -82,14 +82,14 @@ export default function App() {
                     <p>
                         <Typography sx={{ fontSize: 18, color: "white", fontFamily: "Sora" }}>
                             My most prominent languages are JavaScript, Java and Python. Additionally, I've worked with full-stack,
-                            cybersecurity, networking and database technology, both in my academics and employment.
+                            cybersecurity, networking and database software.
                         </Typography>
                     </p>
 
                     <p>
                         <Typography sx={{ fontSize: 18, color: "white", fontFamily: "Sora" }}>
-                            I'm currently in my final semester at Victoria University of
-                            Wellington and a part-time Software Developer at CodeCamp.
+                            I'm currently in my final year at Victoria University of
+                            Wellington and a Junior Network DevOps Engineer at Omega Networks.
                         </Typography>
                     </p>
                 </Box>
