@@ -68,7 +68,7 @@ export default function App() {
                 <Box sx={{ width: "67%", marginBottom: "2%" }}>
                     <p>
                         <Typography sx={{ fontSize: 18, color: "white", fontFamily: "Sora" }}>
-                            I'm a Computer Science student, Software Developer and technology enthusiast from Wellington, New Zealand.
+                            I'm a DevOps Engineer and technology enthusiast from Wellington, New Zealand.
                         </Typography>
                     </p>
 
@@ -88,8 +88,9 @@ export default function App() {
 
                     <p>
                         <Typography sx={{ fontSize: 18, color: "white", fontFamily: "Sora" }}>
-                            I'm currently in my final year at Victoria University of
-                            Wellington and a Junior Network DevOps Engineer at Omega Networks.
+                            I'm currently a Junior Network DevOps Engineer at Omega Networks, where
+                            I am responsible for automating as many processes as possible to allow our
+                            engineers to make better use of their time and expertise.
                         </Typography>
                     </p>
                 </Box>
