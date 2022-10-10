@@ -51,7 +51,6 @@ export default function App() {
             >
                 <h1>
                     <Typography
-                        // noWrap
                         alignCenter
                         sx={{
                             fontWeight: "bold",
@@ -81,7 +80,7 @@ export default function App() {
 
                     <p>
                         <Typography sx={{ fontSize: 18, color: "white", fontFamily: "Sora" }}>
-                            My most prominent languages are JavaScript, Java and Python. Additionally, I've worked with full-stack,
+                            My most prominent languages are Python, Java and JavaScript. Additionally, I've worked with full-stack,
                             cybersecurity, networking and database software.
                         </Typography>
                     </p>
