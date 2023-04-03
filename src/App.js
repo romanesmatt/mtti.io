@@ -47,48 +47,63 @@ export default function App() {
                     borderRadius: "10px",
                     boxShadow: 1,
                     overflowY: "auto",
+                    padding: "1rem",
                 }}
             >
-                <h1>
+                <Typography
+                    align="center"
+                    variant="h1"
+                    sx={{
+                        fontWeight: "bold",
+                        fontSize: 60,
+                        color: "white",
+                        fontFamily: "Sora",
+                        overflow: "hidden",
+                        wordWrap: "break-word",
+                        marginBottom: "5rem",
+                        marginTop: "1rem"
+                    }}
+                >
+                    Hello! I'm Matt Romanes.
+                </Typography>
+
+                <Box sx={{ width: "67%" }}>
                     <Typography
-                        alignCenter
+                        variant="body1"
                         sx={{
-                            fontWeight: "bold",
-                            fontSize: 60,
+                            fontSize: 18,
                             color: "white",
                             fontFamily: "Sora",
-                            overflow: "hidden", 
-                            wordWrap: "break-word",
-                        }}>
-                        Hello! I'm Matt Romanes.
+                            marginBottom: "2rem"
+                        }}
+                    >
+                        As a versatile technology enthusiast from Wellington, New Zealand, I excel in various software development roles with a team-oriented and persistent mindset. Skilled in Python, Java, JavaScript, and Swift, I am adept in frontend and full-stack development.
                     </Typography>
-                </h1>
 
-                <Box sx={{ width: "67%", marginBottom: "2%" }}>
-                    <p>
-                        <Typography sx={{ fontSize: 18, color: "white", fontFamily: "Sora", marginBottom: '1rem' }}>
-                        As a versatile technology enthusiast from Wellington, New Zealand, I excel in various software development 
-                        roles with a team-oriented and persistent mindset. Skilled in Python, Java, JavaScript, and Swift, I am adept in frontend and full-stack development.
-                        </Typography>
-                    </p>
+                    <Typography
+                        variant="body1"
+                        sx={{
+                            fontSize: 18,
+                            color: "white",
+                            fontFamily: "Sora",
+                            marginBottom: "2rem",
+                        }}
+                    >
+                        Leveraging experience in Azure DevOps and Git, I streamline workflows and foster collaboration. My knowledge extends to network monitoring, performance, and security through tools like NetBox and Zabbix.
+                    </Typography>
 
-                    <p>
-                        <Typography sx={{ fontSize: 18, color: "white", fontFamily: "Sora", marginBottom: '1rem'  }}>
-                        Leveraging experience in Azure DevOps and Git, I streamline workflows and foster collaboration. 
-                        My knowledge extends to network monitoring, performance, and security through tools like NetBox and Zabbix.
-                        </Typography>
-                    </p>
-
-                    <p>
-                        <Typography sx={{ fontSize: 18, color: "white", fontFamily: "Sora", marginBottom: '1rem'  }}>
-                        Currently a Junior Network DevOps Engineer at Omega Networks, I focus on process automation and optimization. 
-                        My diverse skillset makes me an ideal candidate for a wide range of positions within the technology sector.
-                        </Typography>
-                    </p>
+                    <Typography
+                        variant="body1"
+                        sx={{
+                            fontSize: 18,
+                            color: "white",
+                            fontFamily: "Sora",
+                            marginBottom: "2rem",
+                        }}
+                    >
+                        Currently a Junior Network DevOps Engineer at Omega Networks, I focus on process automation and optimization. My diverse skillset makes me an ideal candidate for a wide range of positions within the technology sector.
+                    </Typography>
                 </Box>
-
-                {/* Basically, the "footer" */}
-
                 <BottomNavigation
                     showLabels display
                     sx={{
@@ -106,7 +121,6 @@ export default function App() {
                     © Matt Romanes
                 </Typography>
             </Box>
-
         </Box>
     );
 
