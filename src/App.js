@@ -66,30 +66,23 @@ export default function App() {
 
                 <Box sx={{ width: "67%", marginBottom: "2%" }}>
                     <p>
-                        <Typography sx={{ fontSize: 18, color: "white", fontFamily: "Sora" }}>
-                            I'm a DevOps Engineer and technology enthusiast from Wellington, New Zealand.
+                        <Typography sx={{ fontSize: 18, color: "white", fontFamily: "Sora", marginBottom: '1rem' }}>
+                        As a versatile technology enthusiast from Wellington, New Zealand, I excel in various software development 
+                        roles with a team-oriented and persistent mindset. Skilled in Python, Java, JavaScript, and Swift, I am adept in frontend and full-stack development.
                         </Typography>
                     </p>
 
                     <p>
-                        <Typography sx={{ fontSize: 18, color: "white", fontFamily: "Sora" }}>
-                            I describe myself as a team-oriented, persistent and hard-working individual who is
-                            dedicated to creating better digital solutions.
+                        <Typography sx={{ fontSize: 18, color: "white", fontFamily: "Sora", marginBottom: '1rem'  }}>
+                        Leveraging experience in Azure DevOps and Git, I streamline workflows and foster collaboration. 
+                        My knowledge extends to network monitoring, performance, and security through tools like NetBox and Zabbix.
                         </Typography>
                     </p>
 
                     <p>
-                        <Typography sx={{ fontSize: 18, color: "white", fontFamily: "Sora" }}>
-                            My most prominent languages are Python, Java and JavaScript. Additionally, I've worked with full-stack,
-                            cybersecurity, networking and database software.
-                        </Typography>
-                    </p>
-
-                    <p>
-                        <Typography sx={{ fontSize: 18, color: "white", fontFamily: "Sora" }}>
-                            I'm currently a Junior Network DevOps Engineer at Omega Networks, where
-                            I am responsible for automating as many processes as possible to allow our
-                            engineers to make better use of their time and expertise.
+                        <Typography sx={{ fontSize: 18, color: "white", fontFamily: "Sora", marginBottom: '1rem'  }}>
+                        Currently a Junior Network DevOps Engineer at Omega Networks, I focus on process automation and optimization. 
+                        My diverse skillset makes me an ideal candidate for a wide range of positions within the technology sector.
                         </Typography>
                     </p>
                 </Box>
