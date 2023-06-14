@@ -4,7 +4,7 @@ import { Box, Typography, BottomNavigation, BottomNavigationAction } from "@mui/
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
-import BackgroundImage from "./rotoiti.JPG";
+import BackgroundImage from "./hawea.jpg";
 
 export default function App() {
     // State handling for the Bottom Navigation component
@@ -47,55 +47,66 @@ export default function App() {
                     borderRadius: "10px",
                     boxShadow: 1,
                     overflowY: "auto",
+                    padding: "1rem",
                 }}
             >
-                <h1>
+                <Typography
+                    align="center"
+                    variant="h1"
+                    sx={{
+                        fontWeight: "bold",
+                        fontSize: 60,
+                        color: "white",
+                        fontFamily: "Sora",
+                        overflow: "hidden",
+                        wordWrap: "break-word",
+                        marginBottom: "5rem",
+                        marginTop: "1rem"
+                    }}
+                >
+                    Hello! I'm Matt Romanes.
+                </Typography>
+
+                <Box sx={{ width: "67%" }}>
                     <Typography
-                        alignCenter
+                        variant="body1"
                         sx={{
-                            fontWeight: "bold",
-                            fontSize: 60,
+                            fontSize: 18,
                             color: "white",
                             fontFamily: "Sora",
-                            overflow: "hidden", 
-                            wordWrap: "break-word",
-                        }}>
-                        Hello! I'm Matt Romanes.
+                            marginBottom: "2rem"
+                        }}
+                    >
+                        I'm a passionate technology enthusiast from Wellington, New Zealand.
                     </Typography>
-                </h1>
+                    <Typography
+                        variant="body1"
+                        sx={{
+                            fontSize: 18,
+                            color: "white",
+                            fontFamily: "Sora",
+                            marginBottom: "2rem",
+                        }}
+                    >
+                        Currently a Junior Network DevOps Engineer at Omega Networks, I am developing an innovative application with the key objective
+                        to reduce operational costs and streamline technical processes.
+                    </Typography>
 
-                <Box sx={{ width: "67%", marginBottom: "2%" }}>
-                    <p>
-                        <Typography sx={{ fontSize: 18, color: "white", fontFamily: "Sora" }}>
-                            I'm a DevOps Engineer and technology enthusiast from Wellington, New Zealand.
-                        </Typography>
-                    </p>
 
-                    <p>
-                        <Typography sx={{ fontSize: 18, color: "white", fontFamily: "Sora" }}>
-                            I describe myself as a team-oriented, persistent and hard-working individual who is
-                            dedicated to creating better digital solutions.
-                        </Typography>
-                    </p>
+                    <Typography
+                        variant="body1"
+                        sx={{
+                            fontSize: 18,
+                            color: "white",
+                            fontFamily: "Sora",
+                            marginBottom: "2rem",
+                        }}
+                    >
+                    I have a proven track record to deliver top-notch results and consistently perform beyond expectations. I am eager to join a world-class team
+                    with the collective goal to develop cutting-edge software applications.
+                    </Typography>
 
-                    <p>
-                        <Typography sx={{ fontSize: 18, color: "white", fontFamily: "Sora" }}>
-                            My most prominent languages are Python, Java and JavaScript. Additionally, I've worked with full-stack,
-                            cybersecurity, networking and database software.
-                        </Typography>
-                    </p>
-
-                    <p>
-                        <Typography sx={{ fontSize: 18, color: "white", fontFamily: "Sora" }}>
-                            I'm currently a Junior Network DevOps Engineer at Omega Networks, where
-                            I am responsible for automating as many processes as possible to allow our
-                            engineers to make better use of their time and expertise.
-                        </Typography>
-                    </p>
                 </Box>
-
-                {/* Basically, the "footer" */}
-
                 <BottomNavigation
                     showLabels display
                     sx={{
@@ -113,7 +124,6 @@ export default function App() {
                     © Matt Romanes
                 </Typography>
             </Box>
-
         </Box>
     );
 
