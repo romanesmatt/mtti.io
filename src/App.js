@@ -77,7 +77,8 @@ export default function App() {
                             marginBottom: "2rem"
                         }}
                     >
-                        I'm a passionate technology enthusiast from Wellington, New Zealand.
+                        I'm a software developer and technology enthusiast from Wellington, New Zealand. I'm also passionate
+                        about aviation and am a keen badminton player and cyclist.
                     </Typography>
                     <Typography
                         variant="body1"
@@ -88,8 +89,8 @@ export default function App() {
                             marginBottom: "2rem",
                         }}
                     >
-                        Currently a Junior Network DevOps Engineer at Omega Networks, I am developing an innovative application with the key objective
-                        to reduce operational costs and streamline technical processes.
+                        I'm currently a Junior Network DevOps Engineer at Omega Networks, where I am leading the development of a network monitoring application. 
+                        This application has resulted in the implementation of more streamlined processes and a reduction in operational costs.
                     </Typography>
 
 
@@ -102,8 +103,9 @@ export default function App() {
                             marginBottom: "2rem",
                         }}
                     >
-                    I have a proven track record to deliver top-notch results and consistently perform beyond expectations. I am eager to join a world-class team
-                    with the collective goal to develop cutting-edge software applications.
+                   I am passionate about continuous learning and growth, and I thrive in collaborative environments where I can contribute my skills while learning 
+                   from experienced professionals. I am seeking an opportunity to join a talented team where I can further develop my expertise in cutting-edge 
+                   technologies and deliver high-quality software solutions.
                     </Typography>
 
                 </Box>
@@ -121,7 +123,7 @@ export default function App() {
                 </BottomNavigation>
 
                 <Typography sx={{ fontSize: 11, color: "white", marginBottom: "2%", fontFamily: "Sora" }}>
-                    © Matt Romanes
+                    © Matt Romanes | 2024
                 </Typography>
             </Box>
         </Box>
